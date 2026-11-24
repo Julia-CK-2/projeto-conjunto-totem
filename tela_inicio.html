@@ -1,0 +1,181 @@
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="abre.js"></script>
+	<script src="ItemCarrinho.js"></script>
+	<title>Totem de pedidos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+</head>
+
+<body>
+<header>
+    <img src="">
+</header>
+
+
+<details class="sidebar"><summary id="sum">  </summary>
+    <button onclick="AbreHam()"><img src=""> Hambúrgueres </button>
+	<button onclick="AbreAco()"><img src=""> Acompanhamentos </button>
+    <button onclick="AbreSob()"><img src=""> Sobremesas </button>
+    <button onclick="AbreBeb()"><img src=""> Bebidas </button>
+	<button onclick="AbrePromo()"><img src=""> Promoções do dia </button>
+   
+
+</details>
+
+<div id="Promo">
+ <img src=""> <h1>Promoções do dia </h1>
+
+	<button class="opcao" id="15" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+
+<button class="opcao" id="16" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+<button class="opcao" id="17" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+</div>
+
+<div id="Ham" style = "display:none;">
+	<img src=""> <h1>Hambúrgueres</h1>
+
+	<button class="opcao" id="1" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+
+	<button class="opcao" id="2" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+
+	<button class="opcao" id="3" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+
+	<button class="opcao" id="4" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+<button class="opcao" id="5" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+<button class="opcao" id="6" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+<button class="opcao" id="7" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+   </div>
+
+   <div id="Aco" style = "display:none;">
+	<img src=""> <h1>Acompanhamentos </h1>
+
+   <button class="opcao" id="10" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+<button class="opcao" id="11" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+   </div>
+
+   <div id="Sob" style = "display:none;">
+	<img src=""> <h1>Sobremesas </h1>
+
+	<button class="opcao" id="8" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+
+	<button class="opcao" id="9" onclick="updateCar()">
+	<img src="">
+	<h2 class="ti">Titulo</h2>
+	<p><span class="p">0</span></p>
+</button>
+
+   </div>
+
+   <div id="Beb" style = "display:none;">
+	<img src=""> <h1>Bebidas </h1>
+
+	<button class="opcao" id="12" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+	
+	<button class="opcao" id="13" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+
+	<button class="opcao" id="14" onclick="updateCar()">
+		<img src="">
+		<h2 class="ti">Titulo</h2>
+		<p><span class="p">0</span></p>
+	</button>
+
+   </div>
+
+	<div class="container">
+		<img>
+		
+		<a href="../token/tipo_pedido.html"><button> Criar seu pedido </button> </a>
+		
+	</div>
+
+	
+
+<footer>
+<div class="detalhesPedido">
+		<p>Total:<span id="precoTot">0</span></p>
+
+		<div class="itemPedido">
+			<p>Quantidade: <input type="number" id="qt" name="qt" min="1" max="50" /></p>
+		</div>
+		
+
+		
+		<button onclick="">Cancelar</button>
+        <button onclick="">Finalizar</button>
+	</div>
+
+	
+</footer>
+</body>
+</html> 

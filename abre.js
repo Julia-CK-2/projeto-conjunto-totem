@@ -8,6 +8,7 @@
 			Sob.style.display = "none";
 			Beb.style.display = "none";
 			Promo.style.display = "none";
+			Aco.style.display = "none";
 		  }
 		 
 		};
@@ -22,6 +23,7 @@
 			Sob.style.display = "block";
 			Beb.style.display = "none";
 			Promo.style.display = "none";
+			Aco.style.display = "none";
 		  }
 		 
 		  };
@@ -34,6 +36,7 @@
 			Sob.style.display = "none";
 			Beb.style.display = "block";
 			Promo.style.display = "none";
+			Aco.style.display = "none";
 		  } };
 
 		  function AbrePromo() {
@@ -43,6 +46,7 @@
 			Sob.style.display = "none";
 			Beb.style.display = "none";
 			Promo.style.display = "block";
+			Aco.style.display = "none";
 		  }
 		  };
 
@@ -54,7 +58,7 @@
 			  Sob.style.display = "none";
 			  Beb.style.display = "none";
 			  Promo.style.display = "none";
-			   Aco.style.display = "block";
+			  Aco.style.display = "block";
 			}
 		   
 		  };
